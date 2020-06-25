@@ -1,7 +1,6 @@
 # @Github: https://github.com/mehedieh 
 import turtle
 
-
 def getPosition(x, y):
         turtle.setx(x)
         turtle.sety(y)
@@ -556,4 +555,10 @@ def main():
     
 
 if __name__ == '__main__':
-    main()
+    screensize(800,600, "#f0f0f0")
+    pensize(3)  
+    speed(9)    
+    Doraemon()
+    my_goto(100, -300)
+    write('by mehedi', font=("Bradley Hand ITC", 30, "bold"))
+    mainloop()
