@@ -554,11 +554,4 @@ def main():
     turtle.mainloop()
     
 
-if __name__ == '__main__':
-    screensize(800,600, "#f0f0f0")
-    pensize(3)  
-    speed(9)    
-    Doraemon()
-    my_goto(100, -300)
-    write('by mehedi', font=("Bradley Hand ITC", 30, "bold"))
-    mainloop()
+if __name__ == '__main__'
